@@ -15,8 +15,7 @@ const Footer = () => {
                     {/* Logo and Mission */}
                     <div className="lg:col-span-1">
                         <Link to="/" className="flex items-center space-x-2 mb-4">
-                            <img src={'https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg'
-                            } alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
+                            <img src={'images/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
                             <span className="text-xl font-heading font-bold text-white">Prerana Disabled Welfare trust</span>
                         </Link>
                         <p className="text-neutral-300 mb-4">
@@ -83,53 +82,24 @@ const Footer = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
-                                <span className="text-neutral-300">123 Accessibility Avenue<br />Inclusivity City, IC 12345</span>
+                                <span className="text-neutral-300">Opposite Tiles Factory, <br /> Uparahalli Main Road, <br /> TUMAKURU, <br />Karnataka -572 102 </span>
                             </li>
                             <li className="flex items-start">
                                 <svg className="w-5 h-5 text-primary-400 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                 </svg>
-                                <span className="text-neutral-300">(555) 123-4567</span>
+                                <span className="text-neutral-300">+91-8660178143</span>
                             </li>
-                            <li className="flex items-start">
-                                <svg className="w-5 h-5 text-primary-400 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            <li className="flex items-center gap-2">
+                                <svg className="w-5 h-5 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 5H8a4 4 0 00-4 4v6a4 4 0 004 4h8a4 4 0 004-4V9a4 4 0 00-4-4zM3 9l9 6 9-6" />
                                 </svg>
-                                <span className="text-neutral-300">info@Prerana Disabled Welfare trust.org</span>
-                            </li>
-                            <li className="flex items-start">
-                                <svg className="w-5 h-5 text-primary-400 mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                                <span className="text-neutral-300">Monday-Friday: 9AM-5PM<br />Saturday: 10AM-2PM<br />Sunday: Closed</span>
+                                <p className="text-neutral-300 break-all">preranadisabledwelfaretrust@gmail.com</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-
-                {/* Newsletter Form */}
-                <div className="py-8 border-t border-neutral-700">
-                    <div className="flex flex-col md:flex-row justify-between items-center">
-                        <div className="mb-6 md:mb-0 max-w-md">
-                            <h4 className="text-lg font-medium mb-2">Subscribe to Our Newsletter</h4>
-                            <p className="text-neutral-400">Stay updated with our latest news, events, and success stories.</p>
-                        </div>
-                        <form className="w-full md:w-auto">
-                            <div className="flex flex-col sm:flex-row gap-2">
-                                <input
-                                    type="email"
-                                    placeholder="Enter your email address"
-                                    className="form-input bg-neutral-700 border-neutral-600 text-white placeholder-neutral-400"
-                                    required
-                                />
-                                <button type="submit" className="btn-primary whitespace-nowrap">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
+                
                 {/* Copyright */}
                 <div className="pt-8 border-t border-neutral-700 text-neutral-400 text-sm text-center">
                     <p>© {currentYear} Prerana Disabled Welfare trust. All rights reserved.</p>
