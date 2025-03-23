@@ -41,11 +41,10 @@ const Navbar = () => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
                         <img src={'images/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
-                        <span className="text-xl font-heading font-bold text-primary-700">Prerana</span>
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden lg:flex items-center space-x-8">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.name}
@@ -62,7 +61,7 @@ const Navbar = () => {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden text-neutral-700 focus:outline-none"
+                        className="lg:hidden text-neutral-700 focus:outline-none"
                         onClick={() => setIsOpen(!isOpen)}
                         aria-label={isOpen ? "Close menu" : "Open menu"}
                     >
@@ -79,7 +78,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Mobile Navigation */}
-                <div className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 py-4' : 'max-h-0'}`}>
+                <div className={`lg:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 py-4' : 'max-h-0'}`}>
                     <div className="flex flex-col space-y-4">
                         {navLinks.map((link) => (
                             <Link
