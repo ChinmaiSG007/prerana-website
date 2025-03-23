@@ -46,7 +46,7 @@ const Home = () => {
                         Our Impact
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
-                        For over two decades, we've been creating meaningful change in the lives of children.
+                        For over two decades, we've been creating meaningful change in the lives of physically challenged.
                     </p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
@@ -77,29 +77,30 @@ const Home = () => {
                             Our Programs
                         </h2>
                         <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
-                            We run various programs focused on education, health, and child protection.
+                            Prerana Disabled Welfare Trust offers a variety of programs aimed at empowering persons with
+                            disabilities and improving their quality of life
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
                         {ourProgramsArray.map((program) => (
                             <div key={program.id} className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
-                            <div className="h-48 bg-neutral-200 flex items-center justify-center">
+                                <div className="h-48 bg-neutral-200 flex items-center justify-center">
                                     <span className="text-neutral-500">{program.img}</span>
-                            </div>
-                            <div className="p-6">
+                                </div>
+                                <div className="p-6">
                                     <h3 className="text-xl font-bold text-primary-700 mb-2">{program.title}</h3>
                                     <p className="text-neutral-600 mb-4">{program.body}</p>
-                                <Link
-                                    to="/programs"
-                                    className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
-                                >
-                                    Learn more
-                                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </Link>
+                                    <Link
+                                        to="/programs"
+                                        className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
+                                    >
+                                        Learn more
+                                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                                        </svg>
+                                    </Link>
+                                </div>
                             </div>
-                        </div>
                         ))}
                     </div>
                 </div>
@@ -162,7 +163,7 @@ const Home = () => {
                         Join Us in Making a Difference
                     </h2>
                     <p className="text-lg mb-8 max-w-3xl mx-auto">
-                        Whether through volunteering, donations, or advocacy, your support can help us continue our mission to protect and educate vulnerable children.
+                        Whether through volunteering, donations, or advocacy, your support can help us uplift and empower individuals with disabilities, providing them with education, opportunities, and a brighter future.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
