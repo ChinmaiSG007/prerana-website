@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import webdata from './../../web-data.json'
+
+const { ourProgramsArray } = webdata;
+
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -64,12 +68,9 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-medium mb-4">Our Programs</h4>
                         <ul className="space-y-2">
-                            <li><Link to="/programs#education" className="text-neutral-300 hover:text-white">Education & Training</Link></li>
-                            <li><Link to="/programs#employment" className="text-neutral-300 hover:text-white">Employment Support</Link></li>
-                            <li><Link to="/programs#community" className="text-neutral-300 hover:text-white">Community Integration</Link></li>
-                            <li><Link to="/programs#advocacy" className="text-neutral-300 hover:text-white">Advocacy & Policy</Link></li>
-                            <li><Link to="/programs#technology" className="text-neutral-300 hover:text-white">Assistive Technology</Link></li>
-                            <li><Link to="/programs#health" className="text-neutral-300 hover:text-white">Health & Wellness</Link></li>
+                            {ourProgramsArray.map((program) => (
+                                <li key={program.id}><Link to="/programs" className="text-neutral-300 hover:text-white">{program.title}</Link></li>
+                            ))}
                         </ul>
                     </div>
 

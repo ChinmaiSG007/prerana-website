@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import webdata from './../web-data.json'
+
+const { ourProgramsArray } = webdata;
 
 const Home = () => {
     return (
@@ -78,15 +81,14 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
+                        {ourProgramsArray.map((program) => (
+                            <div key={program.id} className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
                             <div className="h-48 bg-neutral-200 flex items-center justify-center">
-                                <span className="text-neutral-500">Program Image</span>
+                                    <span className="text-neutral-500">{program.img}</span>
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary-700 mb-2">Education First</h3>
-                                <p className="text-neutral-600 mb-4">
-                                    Providing access to quality education for all children, regardless of their background.
-                                </p>
+                                    <h3 className="text-xl font-bold text-primary-700 mb-2">{program.title}</h3>
+                                    <p className="text-neutral-600 mb-4">{program.body}</p>
                                 <Link
                                     to="/programs"
                                     className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
@@ -98,46 +100,7 @@ const Home = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
-                            <div className="h-48 bg-neutral-200 flex items-center justify-center">
-                                <span className="text-neutral-500">Program Image</span>
-                            </div>
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary-700 mb-2">Child Protection</h3>
-                                <p className="text-neutral-600 mb-4">
-                                    Creating safe spaces and providing essential services to protect vulnerable children.
-                                </p>
-                                <Link
-                                    to="/programs"
-                                    className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
-                                >
-                                    Learn more
-                                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
-                            <div className="h-48 bg-neutral-200 flex items-center justify-center">
-                                <span className="text-neutral-500">Program Image</span>
-                            </div>
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary-700 mb-2">Community Development</h3>
-                                <p className="text-neutral-600 mb-4">
-                                    Working with communities to create sustainable change and better futures.
-                                </p>
-                                <Link
-                                    to="/programs"
-                                    className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
-                                >
-                                    Learn more
-                                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                                    </svg>
-                                </Link>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
