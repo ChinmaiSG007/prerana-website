@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import webData from "./../web-data.json";
 
 const About = () => {
+    const { ourTeams } = webData;
+
     return (
         <div>
             {/* Hero Section */}
@@ -11,9 +14,6 @@ const About = () => {
                         <h1 className="text-4xl md:text-5xl font-bold font-heading text-primary-800 mb-4">
                             About Prerana
                         </h1>
-                        <p className="text-lg text-neutral-700">
-                            Learn about our journey, our team, and our commitment to protecting and educating vulnerable children.
-                        </p>
                     </div>
                 </div>
             </section>
@@ -26,18 +26,23 @@ const About = () => {
                             Our Story
                         </h2>
                         <p className="text-neutral-700 mb-4">
-                            Prerana was founded in 1998 by a group of educators and social workers who witnessed the challenges faced by children in underprivileged communities. What began as a small initiative to provide educational support to 30 children has grown into a comprehensive organization serving thousands of children across multiple regions.
+                            <strong>Prerana Disabled Welfare Trust (PWDT)</strong>, established in 2009, is a non-profit organization
+                            based in Tumkur, Karnataka, India. We are committed to the empowerment and mainstreaming
+                            of persons with disabilities through various developmental initiatives. Our focus is to create an
+                            inclusive society where all individuals, regardless of their disabilities, have the chance to live
+                            with dignity, independence, and respect.
                         </p>
                         <p className="text-neutral-700 mb-4">
-                            Over the past two decades, we have expanded our programs to address not only education but also child protection, health, nutrition, and community development. Our holistic approach recognizes that a child's wellbeing depends on multiple factors and requires comprehensive support.
-                        </p>
-                        <p className="text-neutral-700">
-                            Today, Prerana continues to grow, guided by our founding principles of dignity, compassion, and the belief that every child deserves a chance to thrive.
+                            Led by trustees who themselves are physically challenged, Prerana understands the everyday
+                            struggles faced by disabled individuals. We know that, with the right opportunities, persons with
+                            disabilities can lead vibrant, fulfilling lives. Therefore, we offer services ranging from educational
+                            support and job training to healthcare, sports activities, and self-empowerment initiatives. Our
+                            goal is to promote the inclusion of persons with disabilities in every aspect of life.
                         </p>
                     </div>
                     <div className="order-1 md:order-2 h-64 md:h-96 rounded-xl overflow-hidden shadow-lg">
                         <div className="w-full h-full bg-neutral-200 flex items-center justify-center">
-                            <span className="text-neutral-500">Organization History Image</span>
+                            <img src="images/IMG-20250223-WA0030.jpg" alt="About" />
                         </div>
                     </div>
                 </div>
@@ -63,7 +68,8 @@ const About = () => {
                                 <h3 className="text-2xl font-bold text-primary-700 mb-2">Our Vision</h3>
                             </div>
                             <p className="text-neutral-600 text-center">
-                                A world where every child has access to quality education, is protected from harm, and has the opportunity to reach their full potential regardless of their background or circumstances.
+                                To create a world where persons with disabilities are celebrated for their strengths and abilities,
+                                with equal opportunities and access to a barrier-free society.
                             </p>
                         </div>
                         <div className="bg-white p-8 rounded-xl shadow-md">
@@ -76,7 +82,9 @@ const About = () => {
                                 <h3 className="text-2xl font-bold text-primary-700 mb-2">Our Mission</h3>
                             </div>
                             <p className="text-neutral-600 text-center">
-                                To protect and educate vulnerable children by providing comprehensive support services, advocating for their rights, and empowering communities to create sustainable change.
+                                To empower persons with disabilities by providing education, healthcare, skill development, and
+                                opportunities for independence, while promoting inclusion and advocacy for a more equitable
+                                society.
                             </p>
                         </div>
                     </div>
@@ -106,25 +114,20 @@ const About = () => {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Leadership Team Members */}
-                    {[1, 2, 3].map((index) => (
-                        <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden">
+                    {ourTeams.map((member) => (
+                        <div key={member.id} className="bg-white rounded-xl shadow-md overflow-hidden">
                             <div className="h-64 bg-neutral-200 flex items-center justify-center">
-                                <span className="text-neutral-500">Team Member Photo</span>
+                                <img src={member.img} alt={member.name} className="w-[100%] h-[100%] overflow-hidden object-contain" />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-primary-700 mb-1">Priya Sharma</h3>
-                                <p className="text-neutral-500 mb-4">Executive Director</p>
+                                <h3 className="text-xl font-bold text-primary-700 mb-1">{member.name}</h3>
+                                <p className="text-neutral-500 mb-4">{member.position}</p>
                                 <p className="text-neutral-600 mb-4">
-                                    With over 15 years of experience in child welfare, Priya leads our organization with passion and dedication.
+                                    With over 15 years of experience in child welfare, {member.name} leads our organization with passion and dedication.
                                 </p>
                             </div>
                         </div>
                     ))}
-                </div>
-                <div className="text-center mt-8">
-                    <button className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition">
-                        Meet Our Full Team
-                    </button>
                 </div>
             </section>
 
@@ -203,7 +206,7 @@ const About = () => {
                         Join Our Journey
                     </h2>
                     <p className="text-lg mb-8 max-w-3xl mx-auto">
-                        Be a part of our mission to create positive change in the lives of children.
+                        Whether through volunteering, donations, or advocacy, your support can help us uplift and empower individuals with disabilities, providing them with education, opportunities, and a brighter future.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

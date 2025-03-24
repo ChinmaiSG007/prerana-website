@@ -36,5 +36,37 @@
       "body": "A warm meal and a safe place to stay can change lives. We provide free food and hostel accommodations, offering comfort and security to those in need.",
       "img": "images/Food & Shelter Support.png"
     }
+  ],
+  "ourTeams": [
+    {
+      "id": 1,
+      "name": "V Murugesha",
+      "position": "Managing Trustee",
+      "img": "images/V Murugesha.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Babu S",
+      "position": "Secretary",
+      "img": "images/Babu S.jpg"
+    },
+    {
+      "id": 3,
+      "name": "G Yashodha",
+      "position": "Vice Chairperson",
+      "img": "images/G Yashodha.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Shabbir Pasha",
+      "position": "Director",
+      "img": "images/Shabbir Pasha.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Roja G",
+      "position": "Director",
+      "img": "images/Roja G.jpg"
+    }
   ]
 }
