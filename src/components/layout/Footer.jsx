@@ -56,7 +56,6 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li><Link to="/" className="text-neutral-300 hover:text-white">Home</Link></li>
                             <li><Link to="/about" className="text-neutral-300 hover:text-white">About Us</Link></li>
-                            <li><Link to="/mission" className="text-neutral-300 hover:text-white">Our Mission</Link></li>
                             <li><Link to="/programs" className="text-neutral-300 hover:text-white">Programs</Link></li>
                             <li><Link to="/stories" className="text-neutral-300 hover:text-white">Success Stories</Link></li>
                             <li><Link to="/donate" className="text-neutral-300 hover:text-white">Donate</Link></li>
@@ -99,7 +98,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                
+
                 {/* Copyright */}
                 <div className="pt-8 border-t border-neutral-700 text-neutral-400 text-sm text-center">
                     <p>© {currentYear} Prerana Disabled Welfare trust. All rights reserved.</p>

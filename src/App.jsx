@@ -7,7 +7,6 @@ import ScrollToTop from "./components/utils/ScrollToTop";
 // Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Mission from "./pages/Mission";
 import Programs from "./pages/Programs";
 import Stories from "./pages/Stories";
 import GetInvolved from "./pages/GetInvolved";
@@ -25,7 +24,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/mission" element={<Mission />} />
             <Route path="/programs" element={<Programs />} />
             <Route path="/stories" element={<Stories />} />
             <Route path="/get-involved" element={<GetInvolved />} />
