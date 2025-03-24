@@ -84,8 +84,8 @@ const Home = () => {
                     <div className="grid md:grid-cols-3 gap-8">
                         {ourProgramsArray.map((program) => (
                             <div key={program.id} className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105">
-                                <div className="h-48 bg-neutral-200 flex items-center justify-center">
-                                    <span className="text-neutral-500">{program.img}</span>
+                                <div className="h-52 bg-neutral-200 flex items-center justify-center">
+                                    <img src={program.img} alt={program.title} className="w-[100%] h-[100%] overflow-hidden object-contain" />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-primary-700 mb-2">{program.title}</h3>
@@ -186,3 +186,11 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// {
+//     "id": 7,
+//     "title": "Future Development Plans",
+//     "body": "Hope for a brighter future starts with action. We aim to build a training and counseling center, a yoga and wellness hub, and a music academy to empower individuals with disabilities.",
+//     "img": "images/Future Development Plans.png"
+//   }

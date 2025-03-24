@@ -4,43 +4,37 @@
       "id": 1,
       "title": "Education & Skill Development",
       "body": "Every individual deserves the right to learn and grow. Schools for the blind and disabled provide Braille education, while vocational training in computers, arts, and crafts helps them build confidence and independence.",
-      "img": " "
+      "img": "images/Education & Skill Development.png"
     },
     {
       "id": 2,
       "title": "Health & Wellness",
       "body": "Good health is the foundation of a fulfilling life. Free medical camps offer essential checkups, while prosthetic limbs, crutches, and mobility aids restore dignity and freedom of movement.",
-      "img": " "
+      "img": "images/Health & Wellness.png"
     },
     {
       "id": 3,
       "title": "Self-Employment & Job Opportunities",
       "body": "Everyone deserves a chance to earn a living with dignity. We support self-employment and job training programs, helping individuals with disabilities find meaningful work and financial stability",
-      "img": " "
+      "img": "images/Self-Employment & Job Opportunities.png"
     },
     {
       "id": 4,
       "title": "Sports & Cultural Activities",
       "body": "Sports and arts bring joy, confidence, and a sense of belonging. From chess tournaments for the blind to music and dance programs, we nurture talents and celebrate abilities.",
-      "img": " "
+      "img": "images/Sports & Cultural Activities.png"
     },
     {
       "id": 5,
       "title": "Rural Development & Outreach",
       "body": "No one should be left behind, no matter where they live. We bring resources, training, and awareness campaigns to rural communities, ensuring equal opportunities for all.",
-      "img": " "
+      "img": "images/Rural Development & Outreach.png"
     },
     {
       "id": 6,
       "title": "Food & Shelter Support",
       "body": "A warm meal and a safe place to stay can change lives. We provide free food and hostel accommodations, offering comfort and security to those in need.",
-      "img": " "
-    },
-    {
-      "id": 7,
-      "title": "Future Development Plans",
-      "body": "Hope for a brighter future starts with action. We aim to build a training and counseling center, a yoga and wellness hub, and a music academy to empower individuals with disabilities.",
-      "img": " "
+      "img": "images/Food & Shelter Support.png"
     }
   ]
 }
