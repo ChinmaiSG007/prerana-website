@@ -39,7 +39,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center py-4">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
-                        <img src={'images/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
+                        <img src={'images/assets/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
                     </Link>
 
                     {/* Desktop Navigation */}

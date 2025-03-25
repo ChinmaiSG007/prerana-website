@@ -4,37 +4,93 @@
       "id": 1,
       "title": "Education & Skill Development",
       "body": "Every individual deserves the right to learn and grow. Schools for the blind and disabled provide Braille education, while vocational training in computers, arts, and crafts helps them build confidence and independence.",
-      "img": "images/Education & Skill Development.png"
+      "img": "images/assets/Education & Skill Development.png",
+      "programs": [
+        {
+          "title": "School for the Blind & Disabled",
+          "description": "Providing Braille education and inclusive learning opportunities."
+        },
+        {
+          "title": "Vocational & Skill Training",
+          "description": "Offering skill development programs in areas like computers, arts, crafts, and more to help individuals become self-reliant."
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Health & Wellness",
       "body": "Good health is the foundation of a fulfilling life. Free medical camps offer essential checkups, while prosthetic limbs, crutches, and mobility aids restore dignity and freedom of movement.",
-      "img": "images/Health & Wellness.png"
+      "img": "images/assets/Health & Wellness.png",
+      "programs": [
+        {
+          "title": "Free Medical Camps",
+          "description": "Organizing medical camps for free health checkups, eye tests, blood donation drives, and other essential healthcare services."
+        },
+        {
+          "title": "Distribution of Prosthetics & Mobility Aids",
+          "description": "Providing Jaipur Foot, robotic arms, crutches, and walking sticks to improve mobility for persons with disabilities."
+        }
+      ]
     },
     {
       "id": 3,
       "title": "Self-Employment & Job Opportunities",
       "body": "Everyone deserves a chance to earn a living with dignity. We support self-employment and job training programs, helping individuals with disabilities find meaningful work and financial stability",
-      "img": "images/Self-Employment & Job Opportunities.png"
+      "img": "images/assets/Self-Employment & Job Opportunities.png",
+      "programs": [
+        {
+          "title": "Self-Employment Programs",
+          "description": "Assisting persons with disabilities in starting their own businesses or finding jobs that suit their capabilities."
+        },
+        {
+          "title": "Job Training & Placement",
+          "description": "Offering job training to help individuals secure sustainable employment in various sectors."
+        }
+      ]
     },
     {
       "id": 4,
       "title": "Sports & Cultural Activities",
       "body": "Sports and arts bring joy, confidence, and a sense of belonging. From chess tournaments for the blind to music and dance programs, we nurture talents and celebrate abilities.",
-      "img": "images/Sports & Cultural Activities.png"
+      "img": "images/assets/Sports & Cultural Activities.png",
+      "programs": [
+        {
+          "title": "Sports Programs",
+          "description": "Organizing sports activities, including annual chess competitions for the blind, to encourage physical fitness and confidence."
+        },
+        {
+          "title": "Cultural Programs",
+          "description": "Hosting cultural events and training in singing, music, dance, and drama to nurture hidden talents and boost self-esteem."
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Rural Development & Outreach",
       "body": "No one should be left behind, no matter where they live. We bring resources, training, and awareness campaigns to rural communities, ensuring equal opportunities for all.",
-      "img": "images/Rural Development & Outreach.png"
+      "img": "images/assets/Rural Development & Outreach.png",
+      "programs": [
+        {
+          "title": "Rural Empowerment Programs",
+          "description": "Implementing programs to help disabled persons in rural areas access resources, training, and employment opportunities."
+        },
+        {
+          "title": "Awareness Campaigns",
+          "description": "Conducting workshops and awareness campaigns to educate the public on disability rights and inclusion."
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Food & Shelter Support",
       "body": "A warm meal and a safe place to stay can change lives. We provide free food and hostel accommodations, offering comfort and security to those in need.",
-      "img": "images/Food & Shelter Support.png"
+      "img": "images/assets/Food & Shelter Support.png",
+      "programs": [
+        {
+          "title": "Free Food & Hostel Services",
+          "description": "Providing free meals and hostel accommodations to disabled persons in need, ensuring their basic needs are met."
+        }
+      ]
     }
   ],
   "ourTeams": [
@@ -42,31 +98,31 @@
       "id": 1,
       "name": "V Murugesha",
       "position": "Managing Trustee",
-      "img": "images/V Murugesha.jpg"
+      "img": "images/people/V Murugesha.jpg"
     },
     {
       "id": 2,
       "name": "Babu S",
       "position": "Secretary",
-      "img": "images/Babu S.jpg"
+      "img": "images/people/Babu S.jpg"
     },
     {
       "id": 3,
       "name": "G Yashodha",
       "position": "Vice Chairperson",
-      "img": "images/G Yashodha.jpg"
+      "img": "images/people/G Yashodha.jpg"
     },
     {
       "id": 4,
       "name": "Shabbir Pasha",
       "position": "Director",
-      "img": "images/Shabbir Pasha.jpg"
+      "img": "images/people/Shabbir Pasha.jpg"
     },
     {
       "id": 5,
       "name": "Roja G",
       "position": "Director",
-      "img": "images/Roja G.jpg"
+      "img": "images/people/Roja G.jpg"
     }
   ]
 }

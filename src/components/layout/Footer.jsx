@@ -15,7 +15,7 @@ const Footer = () => {
                     {/* Logo and Mission */}
                     <div className="lg:col-span-1">
                         <Link to="/" className="flex items-center space-x-2 mb-4">
-                            <img src={'images/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
+                            <img src={'images/assets/logo.jpg'} alt="Prerana Disabled Welfare trust Logo" className="h-10 w-auto" />
                             <span className="text-xl font-heading font-bold text-white">Prerana Disabled Welfare trust</span>
                         </Link>
                         <p className="text-neutral-300 mb-4">
