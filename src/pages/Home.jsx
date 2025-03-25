@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import webdata from './../web-data.json'
 
-const { ourProgramsArray } = webdata;
+const { ourProgramsArray, galleryImages } = webdata;
 
 const Home = () => {
+    const galleryPreview = galleryImages.slice(0, 3);
+
     return (
         <div className="bg-gradient-to-b from-primary-50 to-white">
             {/* Hero Section */}
@@ -166,6 +168,44 @@ const Home = () => {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Gallery Preview Section */}
+            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+                <div className="max-w-7xl mx-auto">
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
+                            Our Journey in Images
+                        </h2>
+                        <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+                            Moments of empowerment, inclusion, and hope captured through our work
+                        </p>
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {galleryPreview.map((image) => (
+                            <div
+                                key={image.id}
+                                className="bg-white rounded-xl shadow-md overflow-hidden transition-transform hover:scale-105"
+                            >
+                                <div className="h-64 bg-neutral-200 flex items-center justify-center">
+                                    <img
+                                        src={image.src}
+                                        alt={image.alt}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="text-center mt-10">
+                        <Link
+                            to="/gallery"
+                            className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition"
+                        >
+                            View Full Gallery
+                        </Link>
                     </div>
                 </div>
             </section>
