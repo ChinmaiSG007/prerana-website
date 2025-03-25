@@ -8,9 +8,6 @@ import ScrollToTop from "./components/utils/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Programs from "./pages/Programs";
-import Stories from "./pages/Stories";
-import GetInvolved from "./pages/GetInvolved";
-import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -25,9 +22,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/programs" element={<Programs />} />
-            <Route path="/stories" element={<Stories />} />
-            <Route path="/get-involved" element={<GetInvolved />} />
-            <Route path="/donate" element={<Donate />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
