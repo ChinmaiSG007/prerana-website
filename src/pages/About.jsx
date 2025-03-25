@@ -18,6 +18,74 @@ const About = () => {
                 </div>
             </section>
 
+            {/* Problem and Solution Section */}
+            <section className="py-16 px-4 md:px-8 bg-white">
+                <div className="max-w-7xl mx-auto">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
+                            Our Challenge and Approach
+                        </h2>
+                        <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+                            Understanding the barriers and creating pathways to empowerment
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8">
+                        {/* Problem Statement */}
+                        <div className="bg-neutral-50 p-8 rounded-xl shadow-md">
+                            <h3 className="text-2xl font-bold text-primary-700 mb-4 text-center">
+                                The Challenge
+                            </h3>
+                            <p className="text-neutral-700 mb-4">
+                                In India, millions of people with disabilities face significant barriers that prevent them from achieving their full potential. These challenges include:
+                            </p>
+                            <ul className="list-disc pl-5 text-neutral-700 space-y-2">
+                                <li>Limited access to education</li>
+                                <li>Inadequate healthcare services</li>
+                                <li>Lack of job opportunities</li>
+                                <li>Social exclusion and stereotyping</li>
+                                <li>Reduced opportunities in rural areas</li>
+                            </ul>
+                            <p className="text-neutral-700 mt-4">
+                                People with disabilities are often marginalized and deprived of opportunities that could help them live a life of independence and dignity.
+                            </p>
+                        </div>
+
+                        {/* Solution Approach */}
+                        <div className="bg-primary-50 p-8 rounded-xl shadow-md">
+                            <h3 className="text-2xl font-bold text-primary-700 mb-4 text-center">
+                                Our Holistic Solution
+                            </h3>
+                            <p className="text-neutral-700 mb-4">
+                                At Prerana Disabled Welfare Trust, we believe in creating an inclusive society by providing comprehensive support:
+                            </p>
+                            <ul className="list-disc pl-5 text-neutral-700 space-y-2">
+                                <li>
+                                    <strong>Education Empowerment:</strong> Specialized education including Braille literacy and skill development
+                                </li>
+                                <li>
+                                    <strong>Healthcare Access:</strong> Free health camps and distribution of mobility aids
+                                </li>
+                                <li>
+                                    <strong>Economic Independence:</strong> Job and self-employment opportunities
+                                </li>
+                                <li>
+                                    <strong>Awareness and Advocacy:</strong> Changing public perceptions and promoting policy changes
+                                </li>
+                                <li>
+                                    <strong>Inclusive Environments:</strong> Training and counseling to create supportive spaces
+                                </li>
+                            </ul>
+                            <div className="text-center mt-6">
+                                <Link to={'/programs'} className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition inline-block">
+                                    Learn More About Our Programs
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Our Story */}
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
                 <div className="grid md:grid-cols-2 gap-8 items-center">

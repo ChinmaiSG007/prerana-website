@@ -69,6 +69,70 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* New Challenge Overview Section */}
+            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+                <div className="max-w-7xl mx-auto">
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
+                            Breaking Barriers, Creating Opportunities
+                        </h2>
+                        <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+                            Our mission is to transform the lives of individuals with disabilities through comprehensive support and empowerment
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <div className="bg-white p-6 rounded-xl shadow-md">
+                            <div className="text-4xl font-bold text-primary-600 mb-4">
+                                <svg className="w-12 h-12 mx-auto text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-bold text-primary-700 text-center mb-3">
+                                Education Access
+                            </h3>
+                            <p className="text-neutral-600 text-center">
+                                Providing specialized education and skill development for individuals with disabilities
+                            </p>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-xl shadow-md">
+                            <div className="text-4xl font-bold text-primary-600 mb-4">
+                                <svg className="w-12 h-12 mx-auto text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-bold text-primary-700 text-center mb-3">
+                                Healthcare Support
+                            </h3>
+                            <p className="text-neutral-600 text-center">
+                                Ensuring access to healthcare, mobility aids, and essential medical services
+                            </p>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-xl shadow-md">
+                            <div className="text-4xl font-bold text-primary-600 mb-4">
+                                <svg className="w-12 h-12 mx-auto text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-bold text-primary-700 text-center mb-3">
+                                Economic Empowerment
+                            </h3>
+                            <p className="text-neutral-600 text-center">
+                                Creating job opportunities and supporting self-employment initiatives
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="text-center mt-10">
+                        <button className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition">
+                            Learn More About Our Mission
+                        </button>
+                    </div>
+                </div>
+            </section>
+
             {/* Programs Preview */}
             <section className="py-16 px-4 md:px-8 bg-neutral-50">
                 <div className="max-w-7xl mx-auto">
