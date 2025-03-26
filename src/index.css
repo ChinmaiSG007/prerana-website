@@ -126,3 +126,11 @@
     opacity: 1;
   }
 }
+
+.pending {
+  background-color: #ffd9007c;
+  color: #ff0000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+}

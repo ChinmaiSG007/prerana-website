@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className="max-w-7xl mx-auto px-4 md:px-8">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-bold font-heading text-primary-800 mb-4">
-                            Contact Us
+                            Contact Us <span class="pending">PENDING</span>
                         </h1>
                         <p className="text-lg text-neutral-600">
                             We're here to listen, support, and create meaningful change together
@@ -62,15 +62,15 @@ const Contact = () => {
                                 <h3 className="font-bold text-primary-700 mb-2">Address</h3>
                                 <p className="text-neutral-600">
                                     Prerana Disabled Welfare Trust<br />
-                                    123 Empowerment Street<br />
-                                    Mumbai, Maharashtra 400001
+                                    XXXXXXXXXXXXXXXXXX<br />
+                                    XXXXXXXXXXXXXX
                                 </p>
                             </div>
                             <div>
                                 <h3 className="font-bold text-primary-700 mb-2">Contact Information</h3>
                                 <p className="text-neutral-600">
-                                    Phone: +91 (022) 1234 5678<br />
-                                    Email: info@preranatrust.org
+                                    Phone: +91-XXXXXXXXXX<br />
+                                    Email: XXXXXXXXXXXXXXXXXXXXX
                                 </p>
                             </div>
                             <div>
