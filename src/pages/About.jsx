@@ -174,7 +174,7 @@ const About = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Our Team <span class="pending">PENDING</span>
+                        Our Team <span className="pending">PENDING</span>
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         Meet the dedicated individuals working to make our mission a reality.
@@ -204,7 +204,7 @@ const About = () => {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                            Achievements & Recognition <span class="pending">PENDING</span>
+                            Achievements & Recognition <span className="pending">PENDING</span>
                         </h2>
                         <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                             Our work has been recognized by various organizations and institutions.
@@ -252,7 +252,7 @@ const About = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Our Partners <span class="pending">PENDING</span>
+                        Our Partners <span className="pending">PENDING</span>
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         We collaborate with organizations that share our commitment to children's welfare.

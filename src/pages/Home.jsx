@@ -45,7 +45,7 @@ const Home = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Our Impact <span class="pending">PENDING</span>
+                        Our Impact <span className="pending">PENDING</span>
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         For over two decades, we've been creating meaningful change in the lives of physically challenged.
@@ -214,7 +214,7 @@ const Home = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Success Stories <span class="pending">PENDING</span>
+                        Success Stories <span className="pending">PENDING</span>
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         The voices of those we've supported speak louder than statistics.
