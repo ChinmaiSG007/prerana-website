@@ -8,7 +8,7 @@ const Programs = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="bg-primary-100 py-12 md:py-20">
+            <section className="bg-primary-100 py-12 md:py-20 bg-pattern-white">
                 <div className="max-w-7xl mx-auto px-4 md:px-8">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-bold font-heading text-primary-800 mb-4">
@@ -19,7 +19,7 @@ const Programs = () => {
             </section>
 
             {/* Program Categories */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Empowering Lives Through Comprehensive Support
@@ -60,7 +60,7 @@ const Programs = () => {
             </section>
 
             {/* Detailed Program Information */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -104,7 +104,7 @@ const Programs = () => {
             </section>
 
             {/* Future Development */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-gradient-to-b from-primary-50 to-white">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-gradient-to-b from-primary-50 to-white bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Future Development Plans
@@ -157,7 +157,7 @@ const Programs = () => {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white">
+            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-white">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
                         Join Our Mission

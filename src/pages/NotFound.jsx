@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NotFound = () => {
     return (
         <div className="bg-gradient-to-b from-primary-50 to-white min-h-screen flex items-center justify-center">
-            <section className="max-w-7xl mx-auto px-4 md:px-8 py-20 text-center">
+            <section className="max-w-7xl mx-auto px-4 md:px-8 py-20 text-center bg-pattern-purple">
                 <div className="bg-white rounded-xl shadow-lg p-10 max-w-2xl mx-auto">
                     <div className="mb-8">
                         <h1 className="text-6xl font-bold text-primary-800 mb-4">

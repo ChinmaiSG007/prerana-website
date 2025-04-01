@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="bg-primary-100 py-12 md:py-20">
+            <section className="bg-primary-100 py-12 md:py-20 bg-pattern-white">
                 <div className="max-w-7xl mx-auto px-4 md:px-8">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-bold font-heading text-primary-800 mb-4">
@@ -19,7 +19,7 @@ const About = () => {
             </section>
 
             {/* Problem and Solution Section */}
-            <section className="py-16 px-4 md:px-8 bg-white">
+            <section className="py-16 px-4 md:px-8 bg-white bg-pattern-purple">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -87,7 +87,7 @@ const About = () => {
             </section>
 
             {/* Our Story */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div className="order-2 md:order-1">
                         <h2 className="text-3xl font-bold font-heading text-primary-800 mb-4">
@@ -117,7 +117,7 @@ const About = () => {
             </section>
 
             {/* Vision & Mission */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -171,7 +171,7 @@ const About = () => {
             </section>
 
             {/* Team */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Our Team <span className="pending">PENDING</span>
@@ -200,7 +200,7 @@ const About = () => {
             </section>
 
             {/* Achievements */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -249,7 +249,7 @@ const About = () => {
             </section>
 
             {/* Partners */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Our Partners <span className="pending">PENDING</span>
@@ -268,7 +268,7 @@ const About = () => {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white">
+            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-purple">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
                         Join Our Journey

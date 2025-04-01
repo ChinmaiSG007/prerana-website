@@ -17,7 +17,7 @@ const Gallery = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="bg-primary-100 py-12 md:py-20">
+            <section className="bg-primary-100 py-12 md:py-20 bg-pattern-white">
                 <div className="max-w-7xl mx-auto px-4 md:px-8">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-bold font-heading text-primary-800 mb-4">
@@ -31,7 +31,7 @@ const Gallery = () => {
             </section>
 
             {/* Image Gallery Section */}
-            <section className="py-16 px-4 md:px-8 bg-white">
+            <section className="py-16 px-4 md:px-8 bg-white bg-pattern-purple">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-3 gap-8">
                         {galleryImages.map((image) => (
@@ -79,7 +79,7 @@ const Gallery = () => {
             )}
 
             {/* Call to Action */}
-            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white">
+            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-purple">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
                         Share Our Story

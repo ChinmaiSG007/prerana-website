@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="bg-gradient-to-b from-primary-50 to-white">
             {/* Hero Section */}
-            <section className="relative py-20 md:py-32 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="relative py-20 md:py-32 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div className="space-y-6">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-primary-800">
@@ -42,7 +42,7 @@ const Home = () => {
             </section>
 
             {/* Impact Stats */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-white">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Our Impact <span className="pending">PENDING</span>
@@ -72,7 +72,7 @@ const Home = () => {
             </section>
 
             {/* New Challenge Overview Section */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-purple">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-10">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -136,7 +136,7 @@ const Home = () => {
             </section>
 
             {/* Programs Preview */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-10">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -173,7 +173,7 @@ const Home = () => {
             </section>
 
             {/* Gallery Preview Section */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50">
+            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-purple">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-10">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -211,7 +211,7 @@ const Home = () => {
             </section>
 
             {/* Testimonials */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-white">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Success Stories <span className="pending">PENDING</span>
@@ -261,7 +261,7 @@ const Home = () => {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white">
+            <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-purple">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
                         Join Us in Making a Difference

@@ -34,7 +34,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`sticky top-0 z-50 w-full transition-all duration-300 ${scrolled ? 'glass-nav shadow-md' : 'bg-transparent'}`}>
+        <nav className={`sticky top-0 z-50 w-full transition-all duration-300 ${scrolled ? 'glass-nav shadow-md' : 'bg-transparent'} bg-pattern-white`}>
             <div className="container-custom">
                 <div className="flex justify-between items-center py-4">
                     {/* Logo */}
