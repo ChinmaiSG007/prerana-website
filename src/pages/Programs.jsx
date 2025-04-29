@@ -60,7 +60,7 @@ const Programs = () => {
             </section>
 
             {/* Detailed Program Information */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
+            {/* <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -101,7 +101,7 @@ const Programs = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Future Development */}
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-gradient-to-b from-primary-50 to-white bg-pattern-purple">
@@ -147,10 +147,23 @@ const Programs = () => {
                             </svg>
                         </div>
                         <h3 className="text-lg font-bold text-primary-700 mb-2 text-center">
-                            Music & Arts Training
+                            Music Academy
                         </h3>
                         <p className="text-neutral-600 text-center">
-                            Providing music and singing training to help disabled persons discover and hone their artistic talents.
+                            Providing music and singing training to help disabled persons discover and hone their musical talents.
+                        </p>
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-md">
+                        <div className="h-20 flex items-center justify-center mb-4">
+                            <svg className="w-12 h-12 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                            </svg>
+                        </div>
+                        <h3 className="text-lg font-bold text-primary-700 mb-2 text-center">
+                            Arts Training Center
+                        </h3>
+                        <p className="text-neutral-600 text-center">
+                            Creating a space for visual arts, crafts, and creative expression to nurture artistic abilities in persons with disabilities.
                         </p>
                     </div>
                 </div>

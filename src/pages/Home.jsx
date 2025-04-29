@@ -13,7 +13,7 @@ const Home = () => {
             <section className="relative py-20 md:py-32 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div className="space-y-6">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-primary-800">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading text-primary-800">
                             Prerana Disabled Welfare trust®
                         </h1>
                         <p className="text-lg text-neutral-700">
@@ -45,7 +45,7 @@ const Home = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-white">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Our Impact <span className="pending">PENDING</span>
+                        Our Impact
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         For over two decades, we've been creating meaningful change in the lives of physically challenged.
@@ -53,16 +53,16 @@ const Home = () => {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                     <div className="p-6 bg-white rounded-lg shadow-md">
-                        <div className="text-4xl font-bold text-primary-600 mb-2">5,000+</div>
-                        <div className="text-neutral-600">Children Supported</div>
+                        <div className="text-4xl font-bold text-primary-600 mb-2">500+</div>
+                        <div className="text-neutral-600"> Food kit distributed</div>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-md">
-                        <div className="text-4xl font-bold text-primary-600 mb-2">25+</div>
+                        <div className="text-4xl font-bold text-primary-600 mb-2">15+</div>
                         <div className="text-neutral-600">Years of Service</div>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-md">
-                        <div className="text-4xl font-bold text-primary-600 mb-2">50+</div>
-                        <div className="text-neutral-600">Community Centers</div>
+                        <div className="text-4xl font-bold text-primary-600 mb-2">21</div>
+                        <div className="text-neutral-600">Types of disabilities helped</div>
                     </div>
                     <div className="p-6 bg-white rounded-lg shadow-md">
                         <div className="text-4xl font-bold text-primary-600 mb-2">100%</div>
@@ -125,13 +125,27 @@ const Home = () => {
                                 Creating job opportunities and supporting self-employment initiatives
                             </p>
                         </div>
+
+                        <div className="bg-white p-6 rounded-xl shadow-md">
+                            <div className="text-4xl font-bold text-primary-600 mb-4">
+                                <svg className="w-12 h-12 mx-auto text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                                </svg>
+                            </div>
+                            <h3 className="text-xl font-bold text-primary-700 text-center mb-3">
+                                Sports & Recreation
+                            </h3>
+                            <p className="text-neutral-600 text-center">
+                                Promoting inclusive sports like blind chess and wheelchair cricket to foster physical activity and social inclusion
+                            </p>
+                        </div>
                     </div>
 
-                    <div className="text-center mt-10">
+                    {/* <div className="text-center mt-10">
                         <button className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-md transition">
                             Learn More About Our Mission
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -211,7 +225,7 @@ const Home = () => {
             </section>
 
             {/* Testimonials */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-white">
+            {/* <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-white">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Success Stories <span className="pending">PENDING</span>
@@ -258,7 +272,7 @@ const Home = () => {
                         Read More Stories
                     </Link>
                 </div>
-            </section>
+            </section> */}
 
             {/* Call to Action */}
             <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-purple">

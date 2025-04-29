@@ -65,22 +65,6 @@
       ]
     },
     {
-      "id": 5,
-      "title": "Rural Development & Outreach",
-      "body": "No one should be left behind, no matter where they live. We bring resources, training, and awareness campaigns to rural communities, ensuring equal opportunities for all.",
-      "img": "images/assets/Rural Development & Outreach.png",
-      "programs": [
-        {
-          "title": "Rural Empowerment Programs",
-          "description": "Implementing programs to help disabled persons in rural areas access resources, training, and employment opportunities."
-        },
-        {
-          "title": "Awareness Campaigns",
-          "description": "Conducting workshops and awareness campaigns to educate the public on disability rights and inclusion."
-        }
-      ]
-    },
-    {
       "id": 6,
       "title": "Food & Shelter Support",
       "body": "A warm meal and a safe place to stay can change lives. We provide free food and hostel accommodations, offering comfort and security to those in need.",
@@ -98,31 +82,31 @@
       "id": 1,
       "name": "V Murugesha",
       "position": "Managing Trustee",
-      "img": "images/people/V Murugesha.jpg"
+      "img": "images/people/V Murugesha.png"
     },
     {
       "id": 2,
       "name": "Babu S",
       "position": "Secretary",
-      "img": "images/people/Babu S.jpg"
+      "img": "images/people/Babu S.png"
     },
     {
       "id": 3,
       "name": "G Yashodha",
       "position": "Vice Chairperson",
-      "img": "images/people/G Yashodha.jpg"
+      "img": "images/people/G Yashodha.png"
     },
     {
       "id": 4,
       "name": "Shabbir Pasha",
       "position": "Director",
-      "img": "images/people/Shabbir Pasha.jpg"
+      "img": "images/people/Shabbir Pasha.png"
     },
     {
       "id": 5,
       "name": "Roja G",
       "position": "Director",
-      "img": "images/people/Roja G.jpg"
+      "img": "images/people/Roja G.png"
     }
   ],
   "galleryImages": [

@@ -156,7 +156,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="text-center mt-8">
+                    {/* <div className="text-center mt-8">
                         <Link
                             to="/mission"
                             className="text-primary-600 hover:text-primary-800 font-medium inline-flex items-center"
@@ -166,7 +166,7 @@ const About = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                             </svg>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -174,7 +174,7 @@ const About = () => {
             <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
-                        Our Team <span className="pending">PENDING</span>
+                        Our Team
                     </h2>
                     <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                         Meet the dedicated individuals working to make our mission a reality.
@@ -183,16 +183,28 @@ const About = () => {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Leadership Team Members */}
                     {ourTeams.map((member) => (
-                        <div key={member.id} className="bg-white rounded-xl shadow-md overflow-hidden">
-                            <div className="h-64 bg-neutral-200 flex items-center justify-center">
-                                <img src={member.img} alt={member.name} className="w-[100%] h-[100%] overflow-hidden object-contain" />
+                        <div key={member.id} className="bg-white rounded-xl shadow-md overflow-hidden group">
+                            <div className="relative h-64  flex items-center justify-center overflow-hidden">
+                                {/* Mandala SVG Background */}
+                                <div className="absolute inset-0 w-full h-full transition-transform duration-1000 group-hover:rotate-180">
+                                    <img
+                                        src="/images/assets/mandala.svg"
+                                        alt="Mandala Pattern"
+                                        className="w-full h-full filter text-primary-600"
+                                    />
+                                </div>
+                                {/* Team Member Image */}
+                                <div className="relative w-full h-full overflow-hidden transition-transform duration-500 group-hover:scale-110">
+                                    <img
+                                        src={member.img}
+                                        alt={member.name}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-primary-700 mb-1">{member.name}</h3>
                                 <p className="text-neutral-500 mb-4">{member.position}</p>
-                                <p className="text-neutral-600 mb-4">
-                                    With over 15 years of experience in child welfare, {member.name} leads our organization with passion and dedication.
-                                </p>
                             </div>
                         </div>
                     ))}
@@ -200,7 +212,7 @@ const About = () => {
             </section>
 
             {/* Achievements */}
-            <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
+            {/* <section className="py-16 px-4 md:px-8 bg-neutral-50 bg-pattern-white">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
@@ -246,10 +258,10 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Partners */}
-            <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
+            {/* <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto bg-pattern-purple">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-primary-800 mb-4">
                         Our Partners <span className="pending">PENDING</span>
@@ -265,7 +277,7 @@ const About = () => {
                         </div>
                     ))}
                 </div>
-            </section>
+            </section> */}
 
             {/* Call to Action */}
             <section className="py-16 px-4 md:px-8 bg-primary-800 text-white bg-pattern-purple">
