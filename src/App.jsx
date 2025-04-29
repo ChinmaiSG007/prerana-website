@@ -11,6 +11,7 @@ import Programs from "./pages/Programs";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Donate from "./pages/Donate";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/programs" element={<Programs />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/donate" element={<Donate />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
